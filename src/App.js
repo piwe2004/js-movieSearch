@@ -1,6 +1,6 @@
-import { Componet } from "./core/core";
+import { Component } from "./core/core";
 
-export default class App extends Componet {
+export default class App extends Component {
     constructor(){
         super({
             tagName: 'h1'
