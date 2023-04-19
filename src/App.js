@@ -1,6 +1,12 @@
-export default class APP{
+import { Componet } from "./core/core";
+
+export default class App extends Componet {
     constructor(){
-        this.el = document.createElement('div');
+        super({
+            tagName: 'h1'
+        })
+    }
+    render(){
         this.el.textContent = 'Hello, world!';
     }
 }
