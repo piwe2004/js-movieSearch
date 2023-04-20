@@ -1,12 +1,8 @@
-import { Component } from "./core/core";
+import { Component } from './core/core'
 
-export default class App extends Component {
-    constructor(){
-        super({
-            tagName: 'h1'
-        })
-    }
+export default class App extends Component{
     render(){
-        this.el.textContent = 'Hello, world!';
+        const routerView = document.createElement('router-view');
+        this.el.append(routerView);
     }
 }
