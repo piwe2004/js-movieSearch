@@ -97,14 +97,20 @@ body{
     max-width:150px;
 }
 
-.movieList {
+.movie-list {
     padding:20px;
     box-sizing: border-box;
     border-radius: 4px;
     background-color: var(--color-area);
 }
 
-.movies{
+.movie-list .message{
+    color:var(--color-primary);
+    font-size:20px;
+    text-align: center;
+}
+
+.movie-list .movies{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
