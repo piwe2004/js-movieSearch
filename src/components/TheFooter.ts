@@ -8,7 +8,7 @@ export default class TheFooter extends Component{
         })
     }
     render(){
-        const {gibhub, repository} = aboutStore.state
+        const {github, repository} = aboutStore.state
         this.el.innerHTML = `
             <div>
                 <a href="${repository}">
@@ -16,7 +16,7 @@ export default class TheFooter extends Component{
                 </a>
             </div>
             <div>
-                <a href="${gibhub}">
+                <a href="${github}">
                     ${new Date().getFullYear()}
                     Kim
                 </a>
