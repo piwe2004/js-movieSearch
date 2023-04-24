@@ -8,6 +8,7 @@
 .pnp.js
 .DS_Store
 .vscode
+.env
 
 # testing
 /coverage
