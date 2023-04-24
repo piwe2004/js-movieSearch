@@ -2,8 +2,12 @@
 
 # dependencies
 /node_modules
+/.parcel-cache
+/dist
 /.pnp
 .pnp.js
+.DS_Store
+.vscode
 
 # testing
 /coverage
